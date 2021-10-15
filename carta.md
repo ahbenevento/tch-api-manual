@@ -23,7 +23,7 @@ Este proceso debe lanzarse luego de registrar la cuenta y cada vez que se modifi
 
 *Header*
 
-```http
+```
 Authorization: *****
 Content-Type: application/json
 ```
@@ -57,7 +57,7 @@ Permite actualizar la carta mendiante una planilla de cálculo **Microsoft Excel
 
 *Header*
 
-```http
+```
 Authorization: *****
 Content-Type: application/vnd.ms-excel | vnd.openxmlformats-officedocument.spreadsheetml.sheet
 ```
@@ -94,7 +94,7 @@ Permite actualizar la carta desde una URL a una planilla de cálculo **Microsoft
 
 *Header*
 
-```http
+```
 Authorization: *****
 Content-Type: application/json
 ```

@@ -20,7 +20,7 @@ Permite crear una nueva cuenta cliente.
 
 *Header*
 
-```http
+```
 Authorization: *****
 Content-Type: application/json
 ```
@@ -121,7 +121,7 @@ Permite modificar cualquier valor registrado inicialmente al registrar una cuent
 
 *Header*
 
-```http
+```
 Authorization: *****
 Content-Type: application/json
 ```
@@ -161,7 +161,7 @@ Marca una cuenta cliente como eliminada. Los administradores de la misma ya no p
 
 *Header*
 
-```http
+```
 Authorization: *****
 ```
 
