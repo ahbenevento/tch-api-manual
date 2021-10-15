@@ -58,13 +58,12 @@ Content-Type: application/json
 
 **Valores aceptados en la solicitud**
 
-| Nombre | Requerido | Descripción |
-|--------|:---------:|-------------|
-|`name`|Si|El nombre de la cuenta accesible desde la Web. Puede ser utilizado com subdominio o carpeta, por lo que los espacios y otros caracteres especiales como los acentos no están permitidos.|
-|`email`|Si|El correo electrónico utilizado.|
-|`alias`|Si|Razón social o nombre de fantasía.|
-|`logo_url`|Si|Una URL donde localizar la imagen utilizada como logo de la forma. Los formatos soportados son: `jpg`, `png`, `gif` y `webp`.|
-|`logo_url`|Si|Una URL donde localizar la imagen utilizada como logo de la forma. Los formatos soportados son: `jpg`, `png`, `gif` y `webp`.|
+| Nombre | Requerido | Predeterminado | Descripción |
+|--------|:---------:|:--------------:|-------------|
+|`name`|Si| |El nombre de la cuenta accesible desde la Web. Puede ser utilizado com subdominio o carpeta, por lo que los espacios y otros caracteres especiales como los acentos no están permitidos.|
+|`email`|Si| |El correo electrónico utilizado.|
+|`alias`|Si| |Razón social o nombre de fantasía.|
+|`logo_url`|Si|`""`|Una URL donde localizar la imagen utilizada como logo de la forma. Los formatos soportados son: `jpg`, `png`, `gif` y `webp`.|
 |`whatsapp`| |El nro. de teléfono utilizado para WhatsApp.|
 |`options`| |Un objeto con las opciones sobre cómo se generará el menú de la carta.|
 |`ui`|Si|Un objeto con la configuración de la interfaz Web.|
