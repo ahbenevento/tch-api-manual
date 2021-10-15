@@ -154,7 +154,7 @@ Un objeto con la información actualizada del cliente.
 
 **Descripción**
 
-Marca una cuenta cliente como eliminada. Los administradores de la misma ya no podrán acceder ni efectuar ningún tipo de cambio.
+Elimina una cuenta cliente. Luego de esta operación ya no se podrá realizar ninguna otra pero la interfaz Web quedará accesible.
 
 **Endpoint**
 
