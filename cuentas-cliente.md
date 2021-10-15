@@ -88,8 +88,8 @@ La siguiente tabla describe las propiedades utilizadas en `ui`.
 | Nombre | Requerido | Predeterminado | Descripción |
 |--------|:---------:|:--------------:|-------------|
 |`firstMessageChat`|Si| |El mensaje inicial con el que una nueva conversación se inicia al enviar un pedido por parte del usuario.|
-|`showProductos`| |`true`|Indica si inicialmente se debe mostrar la lista de productos desplegada.|
-|`titlesRounded`| |`true`|Mostrar titulos con bordes redondeados.|
+|`showProductos`| |`false`|Indica si inicialmente se debe mostrar la lista de productos desplegada.|
+|`titlesRounded`| |`false`|Mostrar titulos con bordes redondeados.|
 |`colors`|Si | |La configuración de colores.|
 
 **Configuración de colores para la interfaz Web**
@@ -136,7 +136,7 @@ Content-Type: application/json
     "email": "veremos@servidor.com",
     "ui": {
         "colors": {
-            "categories": "#fff",
+            "categories": "#fff"
         }
     }
 }
