@@ -64,9 +64,9 @@ Content-Type: application/json
 |`email`|Si| |El correo electrónico utilizado.|
 |`alias`|Si| |Razón social o nombre de fantasía.|
 |`logo_url`|Si|`""`|Una URL donde localizar la imagen utilizada como logo de la forma. Los formatos soportados son: `jpg`, `png`, `gif` y `webp`.|
-|`whatsapp`| |El nro. de teléfono utilizado para WhatsApp.|
-|`options`| |Un objeto con las opciones sobre cómo se generará el menú de la carta.|
-|`ui`|Si|Un objeto con la configuración de la interfaz Web.|
+|`whatsapp`| | |El nro. de teléfono utilizado para WhatsApp.|
+|`options`| | |Un objeto con las opciones sobre cómo se generará el menú de la carta.|
+|`ui`|Si| |Un objeto con la configuración de la interfaz Web.|
 
 **Opciones sobre el menú de la carta**
 
