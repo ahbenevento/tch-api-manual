@@ -18,6 +18,15 @@ Permite crear una nueva cuenta cliente.
 
 **POST** `/customer`
 
+*Header*
+
+```http
+Authorization: *****
+Content-Type: application/json
+```
+
+*Body*
+
 ```json
 {
     "name": "",
@@ -110,6 +119,15 @@ Permite modificar cualquier valor registrado inicialmente al registrar una cuent
 
 `{customerId}` es el ID único obtenido al registrar la cuenta cliente.
 
+*Header*
+
+```http
+Authorization: *****
+Content-Type: application/json
+```
+
+*Body*
+
 ```json
 {
     "email": "veremos@servidor.com",
@@ -140,6 +158,12 @@ Marca una cuenta cliente como eliminada. Los administradores de la misma ya no p
 **DELETE** `/customer/{customerId}`
 
 `{customerId}` es el ID único obtenido al registrar la cuenta cliente.
+
+*Header*
+
+```http
+Authorization: *****
+```
 
 **Retorna**
 
