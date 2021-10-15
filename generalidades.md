@@ -62,6 +62,7 @@ Por último `result` tendrá el valor retornado por la solicitud. En caso de err
 |-------|-------------|
 |`CUSTOMERNOTEXISTS`|La cuenta cliente no existe.|
 |`CUSTOMERALREADYEXISTS`|La cuenta cliente que se intenta registrar ya existe. Recuerde que el nombre y correo electrónico no pueden repetirse.|
+|`CUSTOMERDISABLED`|La cuenta cliente ha sido deshabilitada. No podrá actualizar la carta ni su interfaz Web.|
 
 **Actualización de la carta**
 
