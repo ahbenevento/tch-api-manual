@@ -10,6 +10,11 @@ Al acceder con las credenciales correctas se obtendrá un *access token* con el 
 
 Estos *access token* expiran luego de **24 hs**. Pasado este tiempo será necesario realizar un nuevo *login*.
 
+### Ambientes
+
+-   Desarrollo: `http://pragmatica.com.ar/tch/api/v1`
+-   Producción: `falta`
+
 ### Valores retornados por la API
 
 Si la solicitud enviada no existe o no puede realizarse sobre una entidad existente en la base de datos retornará un error `HTTP 404`.

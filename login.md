@@ -66,4 +66,4 @@ Un objeto con el *access token* generado.
 Authorization: Basic {base64-credentials}
 ```
 
-Donde `{base64-credentials}` es la concatenación del nombre de usuario y la contraseña separados por el caracter dos puntos (`:`) y codificado en *Base64*.
+Donde `{base64-credentials}` es la concatenación del nombre de usuario y la contraseña separados por el caracter dos puntos (`:`) y codificada en *Base64*.
