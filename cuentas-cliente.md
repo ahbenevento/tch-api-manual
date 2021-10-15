@@ -64,8 +64,11 @@ Content-Type: application/json
 |`email`|Si| |El correo electrónico utilizado.|
 |`alias`|Si| |Razón social o nombre de fantasía.|
 |`logo_url`|Si| |Una URL donde localizar la imagen utilizada como logo de la forma. Los formatos soportados son: `jpg`, `png`, `gif` y `webp`.|
-|`slogan`| |`""`|Un slogan o frase visualizada debajo del logo.|
-|`whatsapp`| | |El nro. de teléfono utilizado para WhatsApp.|
+|`enabled`| |`true`|Permite activar o desactivar una cuenta cliente. Mientras esté desactivada una cuenta no se podrá actualizar la carta ni realizar cambios sobre la interfaz Web.|
+|`slogan`| |`null`|Un slogan o frase visualizada debajo del logo.|
+|`whatsapp`| |`null`|El nro. de teléfono utilizado para WhatsApp.|
+|`address`| |`null`|El domicilio a visualizar, puede contener etiquetas HTML.|
+|`gmap_location`| |`null`|La URL con la localicación obtenida desde *Google Maps*. Si se define este valor el usuario podrá cliquear sobre el domicilio para poder visualizar la ubicación en el mapa.|
 |`options`| | |Un objeto con las opciones sobre cómo se generará el menú de la carta.|
 |`ui`|Si| |Un objeto con la configuración de la interfaz Web.|
 
