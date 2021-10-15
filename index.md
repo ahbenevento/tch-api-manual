@@ -1,8 +1,8 @@
-# Tu Carta Hoy
+# Tu Carta Hoy - REST API
 
-## API versión 1
+**Versión 1**
 
-### Índice
+## Índice
 
 1.  [Generalidades](generalidades.md)
 2.  [Autenticación y acceso](login.md)

@@ -1,8 +1,8 @@
-# Tu Carta Hoy
+# Tu Carta Hoy - REST API
 
-## API versión 1
+**Versión 1**
 
-### Generalidades
+## Generalidades
 
 Para poder utilizar la API será necesario contar con una cuenta activa, que consta de un usuario y una contraseña.
 
@@ -10,7 +10,7 @@ Al acceder con las credenciales correctas se obtendrá un *access token* con el 
 
 Estos *access token* expiran luego de **24 hs**. Pasado este tiempo será necesario realizar un nuevo *login*.
 
-**Valores retornados por la API**
+### Valores retornados por la API
 
 Si la solicitud enviada no existe o no puede realizarse sobre una entidad existente en la base de datos retornará un error `HTTP 404`.
 
