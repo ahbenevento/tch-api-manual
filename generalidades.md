@@ -12,7 +12,7 @@ Estos *access token* expiran luego de **24 hs**. Pasado este tiempo será necesa
 
 ### Ambientes
 
--   Desarrollo: `http://pragmatica.com.ar/tch/api/v1`
+-   Desarrollo: `http://tch.pragmatica.com.ar/tch/api/v1`
 -   Producción: `falta`
 
 ### Valores retornados por la API
