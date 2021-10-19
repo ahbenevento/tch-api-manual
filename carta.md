@@ -75,7 +75,8 @@ Un objeto con la dirección Web a la última planilla procesada.
     "error": null,
     "messages": [],
     "result": {
-        "urlLastSpreadsheet": "https:\/\/...\/cartas\/cuenta-cliente/carta/archivo.xlsx"
+        "urlLastSpreadsheet": "https:\/\/...\/cartas\/cuenta-cliente/carta/archivo.xlsx",
+        "hash": "..."
     }
 }
 ```
@@ -116,7 +117,8 @@ Un objeto con la dirección Web a la última planilla procesada.
     "error": null,
     "messages": [],
     "result": {
-        "urlLastSpreadsheet": "https:\/\/...\/cartas\/cuenta-cliente/carta/archivo.xlsx"
+        "urlLastSpreadsheet": "https:\/\/...\/cartas\/cuenta-cliente/carta/archivo.xlsx",
+        "hash": "..."
     }
 }
 ```
